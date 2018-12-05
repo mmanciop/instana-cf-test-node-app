@@ -1,0 +1,15 @@
+{
+  "name": "instana-cf-test-node-app",
+  "version": "1.0.0",
+  "description": "Node.js test application for Instana monitoring on Cloud Foundry",
+  "main": "app.js",
+  "dependencies": {
+    "instana-nodejs-sensor": "^1.55.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michele Mancioppi",
+  "license": "SEE LICENSE IN LICENSE.txt"
+}
