@@ -2,14 +2,29 @@
   "name": "instana-cf-test-node-app",
   "version": "1.0.0",
   "description": "Node.js test application for Instana monitoring on Cloud Foundry",
+  "keywords": [
+    "cloud-foundry",
+    "instana"
+  ],
+  "author": "Michele Mancioppi <michele.mancioppi@instana.com>",
+  "license": "SEE LICENSE IN LICENSE.txt",
   "main": "app.js",
   "dependencies": {
     "instana-nodejs-sensor": "^1.55.1"
   },
   "devDependencies": {},
+  "engines": {
+    "node": ">=10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmanciop/instana-cf-test-node-app"
+  },
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Michele Mancioppi",
-  "license": "SEE LICENSE IN LICENSE.txt"
+  "bugs": {
+    "url": "https://github.com/mmanciop/instana-cf-test-node-app/issues"
+  }
 }
