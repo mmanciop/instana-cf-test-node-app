@@ -1,0 +1,5 @@
+---
+applications:
+- name: test-node-app
+  path: ..
+  random-route: true
